@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28227" started-at="2021-07-11T20:05:33 IST" finished-at="2021-07-11T20:06:01 IST">
+    <groups>
+      <group name="sanity">
+        <method signature="TestFlipkart.TestFashion()[pri:2, instance:testExecution.TestFlipkart@1563da5]" name="TestFashion" class="testExecution.TestFlipkart"/>
+        <method signature="TestFlipkart.TestFlipkartfun()[pri:1, instance:testExecution.TestFlipkart@1563da5]" name="TestFlipkartfun" class="testExecution.TestFlipkart"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Default test" duration-ms="28227" started-at="2021-07-11T20:05:33 IST" finished-at="2021-07-11T20:06:01 IST">
+      <class name="testExecution.TestFlipkart">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testExecution.TestFlipkart@1563da5]" name="launchBrowser" is-config="true" duration-ms="23609" started-at="2021-07-11T20:05:33 IST" finished-at="2021-07-11T20:05:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="TestFlipkartfun()[pri:1, instance:testExecution.TestFlipkart@1563da5]" name="TestFlipkartfun" duration-ms="852" started-at="2021-07-11T20:05:57 IST" finished-at="2021-07-11T20:05:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFlipkartfun -->
+        <test-method status="PASS" signature="TestFashion()[pri:2, instance:testExecution.TestFlipkart@1563da5]" name="TestFashion" duration-ms="3675" started-at="2021-07-11T20:05:57 IST" finished-at="2021-07-11T20:06:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFashion -->
+      </class> <!-- testExecution.TestFlipkart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
