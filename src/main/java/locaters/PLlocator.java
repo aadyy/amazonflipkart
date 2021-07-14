@@ -17,36 +17,36 @@ public class PLlocator extends Base{
 	@FindBy(xpath = "//a[@class=\"nav-link\" and contains(text(),\"Personal Loan\")]")
 	public WebElement pl;
 	@FindBy(id = "li_display_name")
-	public static WebElement fullname;
+	public  WebElement fullname;
 	@FindBy(id = "email")
-	public static WebElement emailAddress;
+	public  WebElement emailAddress;
 	@FindBy(id = "pincode")
-	public static WebElement pincode;
+	public  WebElement pincode;
 	@FindBy(id = "employment")
-	public static WebElement employmentselect;
+	public  WebElement employmentselect;
 	@FindBy(id = "div_employment_type")
-	public static WebElement salariedEmp;
+	public  WebElement salariedEmp;
 	@FindBy(id = "self-emp")
-	public static WebElement selfEmp;
+	public  WebElement selfEmp;
 	@FindBy(id = "self-emp1")
-	public static WebElement selfEmpDRCA;
+	public  WebElement selfEmpDRCA;
 	@FindBy(id = "companyName")
-	public static WebElement companyNametext;
+	public  WebElement companyNametext;
 	
 	@FindBy(id = "a_loc1")
-	public static WebElement ibmselect;
+	public  WebElement ibmselect;
 	@FindBy(id = "monthlyIncome")
-	public static WebElement monthlyIncometext;
+	public  WebElement monthlyIncometext;
 	@FindBy(id = "mobile")
-	public static WebElement mobiletext;
+	public  WebElement mobiletext;
 	@FindBy(id = "li_submit")
-	public static WebElement nextbutton;
+	public  WebElement nextbutton;
 	@FindBy(id = "txt_otp")
-	public static WebElement otptext;
+	public  WebElement otptext;
 	@FindBy(id = "control-indicator")
-	public static WebElement ihearbycheck;
+	public  WebElement ihearbycheck;
 	@FindBy(id = "btn_mobile_verify")
-	public static WebElement verifybutton;
+	public  WebElement verifybutton;
 	
 	
 	

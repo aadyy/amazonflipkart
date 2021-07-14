@@ -1,29 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28227" started-at="2021-07-11T20:05:33 IST" finished-at="2021-07-11T20:06:01 IST">
+  <suite name="Suite" duration-ms="56766" started-at="2021-07-12T18:01:39 IST" finished-at="2021-07-12T18:02:36 IST">
     <groups>
       <group name="sanity">
-        <method signature="TestFlipkart.TestFashion()[pri:2, instance:testExecution.TestFlipkart@1563da5]" name="TestFashion" class="testExecution.TestFlipkart"/>
-        <method signature="TestFlipkart.TestFlipkartfun()[pri:1, instance:testExecution.TestFlipkart@1563da5]" name="TestFlipkartfun" class="testExecution.TestFlipkart"/>
+        <method signature="TestFlipkart.TestFlipkartfun()[pri:1, instance:testExecution.TestFlipkart@30a3107a]" name="TestFlipkartfun" class="testExecution.TestFlipkart"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="Default test" duration-ms="28227" started-at="2021-07-11T20:05:33 IST" finished-at="2021-07-11T20:06:01 IST">
+    <test name="Test1" duration-ms="18498" started-at="2021-07-12T18:01:39 IST" finished-at="2021-07-12T18:01:57 IST">
       <class name="testExecution.TestFlipkart">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testExecution.TestFlipkart@1563da5]" name="launchBrowser" is-config="true" duration-ms="23609" started-at="2021-07-11T20:05:33 IST" finished-at="2021-07-11T20:05:57 IST">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testExecution.TestFlipkart@30a3107a]" name="launchBrowser" is-config="true" duration-ms="17603" started-at="2021-07-12T18:01:39 IST" finished-at="2021-07-12T18:01:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="TestFlipkartfun()[pri:1, instance:testExecution.TestFlipkart@1563da5]" name="TestFlipkartfun" duration-ms="852" started-at="2021-07-11T20:05:57 IST" finished-at="2021-07-11T20:05:57 IST">
+        <test-method status="PASS" signature="TestFlipkartfun()[pri:1, instance:testExecution.TestFlipkart@30a3107a]" name="TestFlipkartfun" duration-ms="807" started-at="2021-07-12T18:01:57 IST" finished-at="2021-07-12T18:01:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestFlipkartfun -->
-        <test-method status="PASS" signature="TestFashion()[pri:2, instance:testExecution.TestFlipkart@1563da5]" name="TestFashion" duration-ms="3675" started-at="2021-07-11T20:05:57 IST" finished-at="2021-07-11T20:06:01 IST">
+      </class> <!-- testExecution.TestFlipkart -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="38200" started-at="2021-07-12T18:01:57 IST" finished-at="2021-07-12T18:02:36 IST">
+      <class name="testExecution.Test_Amazon">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:testExecution.Test_Amazon@3e57cd70]" name="LaunchBrowser" is-config="true" duration-ms="17157" started-at="2021-07-12T18:01:57 IST" finished-at="2021-07-12T18:02:15 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestFashion -->
-      </class> <!-- testExecution.TestFlipkart -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="Test_amazon()[pri:1, instance:testExecution.Test_Amazon@3e57cd70]" name="Test_amazon" duration-ms="12610" started-at="2021-07-12T18:02:15 IST" finished-at="2021-07-12T18:02:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_amazon -->
+        <test-method status="PASS" signature="QuitBrowser()[pri:0, instance:testExecution.Test_Amazon@3e57cd70]" name="QuitBrowser" is-config="true" duration-ms="8430" started-at="2021-07-12T18:02:27 IST" finished-at="2021-07-12T18:02:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+      </class> <!-- testExecution.Test_Amazon -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>
